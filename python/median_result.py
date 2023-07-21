@@ -19,7 +19,6 @@ if avg <= 3:
 elif avg > 3 and avg <= 5:
     print("O aluno ", name_student, " está de recuperação")
     print("E o valor da recuperação é: ", recovery)
-    
 if avg > 5:
     print("O aluno ", name_student, " está aprovado")
     print("E o valor da recuperação é: ", recovery)
