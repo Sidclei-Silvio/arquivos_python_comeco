@@ -19,10 +19,7 @@ def mult(valor1, valor2):
 # Função Divisão
 def div(valor1, valor2):
     return valor1 / valor2
-    
-def power(base, exponent):
-    result = base ** exponent
-    return result
+
 
 def main():
     operacao = input("Digite o símbolo da operação desejada (+,-,/,*)")
