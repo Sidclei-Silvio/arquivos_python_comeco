@@ -7,9 +7,8 @@ class Pessoa:
         print ("Estou falando")        
     
 aluno1 = Pessoa("Pedro", "Masculino", 25)
-aluno2 = Pessoa("Silvia", "Femea", 24)
-professor = Pessoa("Paulo", "Macho", 79)
+aluno2 = Pessoa("Silvia", "Feminino", 24)
+professor = Pessoa("Paulo", "Masculino", 79)
 print (aluno1.nome)
 print (aluno2.nome)
 aluno2.falar()
-
